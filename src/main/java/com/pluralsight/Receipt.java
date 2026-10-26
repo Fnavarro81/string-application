@@ -9,6 +9,6 @@ public class Receipt {
         int itemQuantity = 1;
 
         // Build and print:
-        System.out.println("You bought " + itemQuantity + " " + itemName + " your total will be " + itemPrice);
+        System.out.println("You bought " + itemQuantity + " " + itemName + " your total will be: " + itemPrice);
     }
 }

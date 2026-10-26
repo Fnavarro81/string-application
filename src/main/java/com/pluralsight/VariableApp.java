@@ -16,7 +16,7 @@ public class VariableApp {
         String favoriteColor = "Purple";
         System.out.println("The answer is " + favoriteColor);
         // Question 2:
-        String startDate = "2026";
+        int startDate = 2026;
         System.out.println("The answer is " + startDate);
         // Question 3:
         char middleInitial = 'N';
@@ -30,10 +30,10 @@ public class VariableApp {
 
         // Step 2:
         // Question 1:
-        String daysInWeek = "7";
+        int daysInWeek = 7;
         System.out.println("Every week has this many days: " + daysInWeek);
         // Question 2:
-        String priceOfCoffee = "$4.99";
+        double priceOfCoffee = 4.99;
         System.out.println("The price for a small coffee is " + priceOfCoffee);
         // Question 3:
         char favoriteLetter = 'C';
