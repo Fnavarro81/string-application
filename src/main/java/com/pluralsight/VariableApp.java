@@ -43,6 +43,5 @@ public class VariableApp {
         System.out.println("If I said it was raining it would be " + isRaining);
 
 
-        // REPEAT FOR NEXT EXERCISE
     }
 }
