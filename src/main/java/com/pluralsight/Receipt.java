@@ -7,8 +7,9 @@ public class Receipt {
         String itemName = "Whey Protein";
         double itemPrice = 99.99;
         int itemQuantity = 1;
+        double total = itemPrice * itemQuantity;
 
         // Build and print:
-        System.out.println("You bought " + itemQuantity + " " + itemName + " your total will be: " + itemPrice);
+        System.out.println("You bought " + itemQuantity + " " + itemName + " your total will be: " + total);
     }
 }

@@ -1,37 +1,27 @@
 package com.pluralsight;
 
-import java.security.KeyStore;
-
 public class VariableApp {
     public static void main(String[] args) {
 
         // Question 1:
-        // declare variables here
-        // then code solution
-        // then use System.out.println() to display results
-        // ex: System.out.println("The answer is " + answer);
-
-        // Step 1
-        // Question 1:
         String favoriteColor = "Purple";
-        System.out.println("The answer is " + favoriteColor);
+        System.out.println("My favorite color is " + favoriteColor);
         // Question 2:
         int startDate = 2026;
-        System.out.println("The answer is " + startDate);
+        System.out.println("The start date is " + startDate);
         // Question 3:
         char middleInitial = 'N';
-        System.out.println("The answer is " + middleInitial);
+        System.out.println("My middle initial is " + middleInitial);
         // Question 3:
         boolean havePets = true;
         System.out.println("The answer is " + havePets);
         // Question 4:
         String niceMessage = "Push past your limits and never give up";
-        System.out.println("The answer is " + niceMessage);
+        System.out.println("A nice message to start your day: " + niceMessage);
 
-        // Step 2:
         // Question 1:
         int daysInWeek = 7;
-        System.out.println("Every week has this many days: " + daysInWeek);
+        System.out.println("Every week has " + daysInWeek + " days in a week");
         // Question 2:
         double priceOfCoffee = 4.99;
         System.out.println("The price for a small coffee is " + priceOfCoffee);
